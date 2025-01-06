@@ -2,6 +2,7 @@
   export let href: string | undefined = undefined;
   export let type: "button" | "submit" = "button";
   export let variant: "primary" | "secondary" = "primary";
+  export const disabled = false;
 
   const baseClasses = "inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg focus:outline-none focus:ring-4";
   const variants = {

@@ -25,6 +25,7 @@ export const actions: Actions = {
             throw redirect(303, `/projets/${project.id}`);
         } catch (error) {
             if (error instanceof ZodError) {
+                console.error('Validation Errors:', error.errors); // Log validation errors
                 return fail(400, {
                     error: error.errors.map(e => e.message).join(', '),
                     data: formData
