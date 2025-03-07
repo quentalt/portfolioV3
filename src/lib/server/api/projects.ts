@@ -33,19 +33,8 @@ export async function getProjects(options?: {
     return { projects, total };
 }
 
-export async function getProjectById(id: string) {
+export async function getProjectById(id: number) {
     return prisma.project.findUnique({ where: { id } });
-}
-
-export async function updateProject(id: string, data: Partial<Omit<Project, 'id' | 'createdAt' | 'updatedAt'>>) {
-    return prisma.project.update({
-        where: { id },
-        data
-    });
-}
-
-export async function deleteProject(id: string) {
-    return prisma.project.delete({ where: { id } });
 }
 
 export async function getAllTags() {
@@ -55,7 +44,7 @@ export async function getAllTags() {
     return [...new Set(tags.flatMap(p => p.tags))];
 }
 
-export async function getRelatedProjects(projectId: string, limit = 3) {
+export async function getRelatedProjects(projectId: number, limit = 3) {
     const project = await prisma.project.findUnique({
         where: { id: projectId },
         select: { tags: true }
