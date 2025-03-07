@@ -13,7 +13,6 @@
   <NavUl {activeUrl}>
     <NavLi href="/">Accueil</NavLi>
     <NavLi href="/projets">Projets</NavLi>
-    <NavLi href="/nouveau-projet">Nouveau Projet</NavLi>
     <NavLi href="/contact">Contact</NavLi>
   </NavUl>
   <div class="flex items-center gap-4">
