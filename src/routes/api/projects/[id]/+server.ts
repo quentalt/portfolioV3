@@ -2,19 +2,14 @@ import { json } from '@sveltejs/kit';
 import { getProjectById, getRelatedProjects } from '$lib/server/api/projects';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ params, url }) => {
-    const projectId = Number(params.id);
-    const project = await getProjectById(projectId);
+export const GET: RequestHandler = async ({ params}) => {
+    const id = +params.id;
+    if (!id) return json({ error: 'Invalid project ID' }, { status: 400 });
 
-    if (!project) {
-        return new Response('Project not found', { status: 404 });
-    }
+    const project = await getProjectById(id);
+    if (!project) return json({ error: 'Project not found' }, { status: 404 });
 
-    if (url.searchParams.has('related')) {
-        const relatedProjects = await getRelatedProjects(projectId);
-        return json({ project, relatedProjects });
-    }
+    const related = await getRelatedProjects(id);
 
-    return json(project);
-};
-
+    return json({ project, related });
+}
