@@ -13,7 +13,7 @@ export async function getProjects(options?: {
             options?.tag ? { tags: { has: options.tag } } : {},
             options?.search ? {
                 OR: [
-                    { name: { contains: options.search, mode: 'insensitive' } },
+                    { title: { contains: options.search, mode: 'insensitive' } },
                     { description: { contains: options.search, mode: 'insensitive' } }
                 ]
             } : {}
@@ -35,10 +35,6 @@ export async function getProjects(options?: {
 
 export async function getProjectById(id: string) {
     return prisma.project.findUnique({ where: { id } });
-}
-
-export async function createProject(data: Omit<Project, 'id' | 'createdAt' | 'updatedAt'>) {
-    return prisma.project.create({ data });
 }
 
 export async function updateProject(id: string, data: Partial<Omit<Project, 'id' | 'createdAt' | 'updatedAt'>>) {
