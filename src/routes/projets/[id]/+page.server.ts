@@ -1,15 +1,18 @@
-import { prisma } from '$lib/server/prisma';
+import { getProjectById, getRelatedProjects } from '$lib/server/api/projects';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
-  const project = await prisma.project.findUnique({
-    where: { id: params.id }
-  });
+  const id = +params.id;
+  if (!id) throw error(400, 'Invalid project ID');
 
-  if (!project) {
-    throw error(404, 'Projet non trouvé');
-  }
+  const project = await getProjectById(id);
+  if (!project) throw error(404, 'Project not found');
 
-  return { project };
+  const relatedProjects = await getRelatedProjects(id);
+
+  return {
+    project,
+    relatedProjects
+  };
 };
