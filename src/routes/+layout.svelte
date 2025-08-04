@@ -1,6 +1,6 @@
 <script lang="ts">
   import "../app.css";
-  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Avatar, DarkMode } from 'flowbite-svelte';
+  import {Navbar, NavBrand, NavLi, NavUl, NavHamburger, Avatar, DarkMode, FooterCopyright} from 'flowbite-svelte';
   import { page } from '$app/stores';
   $: activeUrl = $page.url.pathname;
 </script>
@@ -13,6 +13,7 @@
   <NavUl {activeUrl}>
     <NavLi href="/">Accueil</NavLi>
     <NavLi href="/projets">Projets</NavLi>
+    <NavLi href="/services">Services</NavLi>
     <NavLi href="/contact">Contact</NavLi>
   </NavUl>
   <div class="flex items-center gap-4">
@@ -23,4 +24,9 @@
 
 <div class="pt-20">
   <slot />
+  <FooterCopyright
+          href="/"
+          by="Quentin Altieri"
+          class="text-center"
+  />
 </div>

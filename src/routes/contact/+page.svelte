@@ -4,7 +4,7 @@
 
     const skills = [
         "JavaScript/TypeScript",
-        "React/Next, Svelte, Vue.js",
+        "React/Next, Angular, Svelte",
         "Node.js, Express",
         "PostgreSQL, MongoDB",
         "PHP, Python, Docker, CI/CD",
