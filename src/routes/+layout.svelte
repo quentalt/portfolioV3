@@ -15,6 +15,7 @@
     <NavLi href="/projets">Projets</NavLi>
     <NavLi href="/services">Services</NavLi>
     <NavLi href="/contact">Contact</NavLi>
+    <NavLi href="/blog">Blog</NavLi>
   </NavUl>
   <div class="flex items-center gap-4">
     <Avatar src="/photo.jpg" alt="Avatar" rounded />
