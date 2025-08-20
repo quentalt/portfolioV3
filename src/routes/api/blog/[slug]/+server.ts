@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import {getBlogPost} from "../../../../stores/blog";
+import {getBlogPost} from "$lib/server/api/blogs";
 
 export const GET: RequestHandler = async ({ params }) => {
     const slug = params.slug;

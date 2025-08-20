@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
-import {getBlogPosts} from "../../../stores/blog";
 import type { RequestHandler } from './$types';
+import { getBlogPosts } from '$lib/server/api/blogs';
 
 
 export const GET: RequestHandler = async ({ url }) => {
