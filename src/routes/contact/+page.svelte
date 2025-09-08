@@ -36,7 +36,7 @@
             <DevInfo title="Expérience" items={experience} />
         </div>
 
-        <div class="border-t border-gray-200 dark:border-gray-700 pt-8">
+        <div class="border-t border-gray-200 dark:text-white pt-8">
             <h2 class="text-2xl font-semibold mb-6 text-center">Me Contacter</h2>
 
             <div class="flex flex-wrap justify-center gap-4">
