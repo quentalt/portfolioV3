@@ -153,7 +153,7 @@
                         <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span class="text-gray-700 dark:text-gray-300 text-sm">Design personnalisé</span>
+                        <span class="text-gray-700 dark:text-gray-300 text-sm">Design moderne et responsive</span>
                     </li><li class="flex items-start">
                         <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -215,11 +215,6 @@
                         <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span class="text-gray-700 dark:text-gray-300 text-sm">Design personnalisé</span>
-                    </li> <li class="flex items-start">
-                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
                         <span class="text-gray-700 dark:text-gray-300 text-sm">Animations personnalisées</span>
                     </li>
                     <li class="flex items-start">
@@ -233,6 +228,12 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span class="text-gray-700 dark:text-gray-300 text-sm">Intégration Google Analytics</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700 dark:text-gray-300 text-sm">Blog/Actualités (pour alimenter le contenu)</span>
                     </li>
                 </ul>
                 <Button href="/contact" class="w-full bg-primary-600 hover:bg-primary-700 text-white border-none">
@@ -268,12 +269,6 @@
                         <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        <span class="text-gray-700 dark:text-gray-300 text-sm">Animations & interactions avancées</span>
-                    </li>
-                    <li class="flex items-start">
-                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
                         <span class="text-gray-700 dark:text-gray-300 text-sm">Système réservation/paiement</span>
                     </li>
                     <li class="flex items-start">
@@ -281,6 +276,18 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span class="text-gray-700 dark:text-gray-300 text-sm">Optimisation SEO poussée</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700 dark:text-gray-300 text-sm">Intégration newsletter (Mailjet, Listmonk ...)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span class="text-gray-700 dark:text-gray-300 text-sm">Multilingue (2 langues)</span>
                     </li>
                 </ul>
                 <Button href="/contact" class="w-full bg-gray-600 hover:bg-gray-700 text-white border-none">
