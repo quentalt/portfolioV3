@@ -137,9 +137,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Basique</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2-3 jours de travail</p>
                     <div class="mb-4">
-                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">800-1200 €</p>
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">400-600 €</p>
-                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>
+<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">800-1200 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">800-1200 €</p>
+<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
@@ -193,9 +193,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Standard</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">4-5 jours de travail</p>
                     <div class="mb-4">
-                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1200-1800 €</p>
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">700-1000 €</p>
-                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>
+<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1200-1800 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1200-1800 €</p>
+<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
@@ -247,9 +247,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Premium</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">6-8 jours de travail</p>
                     <div class="mb-4">
-                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1800-2500 €</p>
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1000-1400 €</p>
-                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>
+<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1800-2500 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1800-2500 €</p>
+<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
