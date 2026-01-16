@@ -34,7 +34,7 @@
                 <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">
                     Boutique en Ligne
                 </h2>
-                <p class="text-orange-500 dark:text-orange-400 font-semibold mb-4">À partir de 2500 €</p>
+                <!--                <p class="text-orange-500 dark:text-orange-400 font-semibold mb-4">À partir de 2500 €</p>-->
                 <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
                     Lancez votre activité e-commerce avec une boutique sécurisée,
                     performante et optimisée pour maximiser vos ventes.
@@ -137,9 +137,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Basique</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2-3 jours de travail</p>
                     <div class="mb-4">
-<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">800-1200 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">800-1200 €</p>
-<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
+                        <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">800-1200 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">20 €</p>
+                        <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
@@ -155,11 +155,11 @@
                         </svg>
                         <span class="text-gray-700 dark:text-gray-300 text-sm">Design moderne et responsive</span>
                     </li><li class="flex items-start">
-                        <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        <span class="text-gray-700 dark:text-gray-300 text-sm">Animations basiques</span>
-                    </li>
+                    <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span class="text-gray-700 dark:text-gray-300 text-sm">Animations basiques</span>
+                </li>
                     <li class="flex items-start">
                         <svg class="w-5 h-5 text-green-500 dark:text-green-400 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -193,9 +193,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Standard</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">4-5 jours de travail</p>
                     <div class="mb-4">
-<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1200-1800 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1200-1800 €</p>
-<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
+                        <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1200-1800 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">60 €</p>
+                        <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
@@ -247,9 +247,9 @@
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Premium</h3>
                     <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">6-8 jours de travail</p>
                     <div class="mb-4">
-<!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1800-2500 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1800-2500 €</p>
-<!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
+                        <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1800-2500 €</p>-->
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1200 €</p>
+                        <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
                 <ul class="space-y-3 mb-8">
