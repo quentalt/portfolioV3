@@ -135,10 +135,10 @@
             <Card class="p-8 bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 hover:border-primary-500 dark:hover:border-primary-400 transition-all duration-200">
                 <div class="text-center mb-6">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Basique</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2-3 jours de travail</p>
+                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">3-4 jours de travail</p>
                     <div class="mb-4">
                         <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">800-1200 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">20 €</p>
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">800-1000 €</p>
                         <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
@@ -191,10 +191,10 @@
                 </div>
                 <div class="text-center mb-6">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Standard</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">4-5 jours de travail</p>
+                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">5-7 jours de travail</p>
                     <div class="mb-4">
                         <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1200-1800 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">60 €</p>
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1500-2000 €</p>
                         <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
@@ -245,10 +245,10 @@
             <Card class="p-8 bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 hover:border-primary-500 dark:hover:border-primary-400 transition-all duration-200">
                 <div class="text-center mb-6">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Premium</h3>
-                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">6-8 jours de travail</p>
+                    <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">8-12 jours de travail</p>
                     <div class="mb-4">
                         <!--                        <p class="text-sm text-gray-500 dark:text-gray-400 line-through">1800-2500 €</p>-->
-                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">1200 €</p>
+                        <p class="text-3xl font-bold text-orange-500 dark:text-orange-400">3000-4000 €</p>
                         <!--                        <p class="text-xs text-orange-600 dark:text-orange-400 mt-1">Offre Black Friday</p>-->
                     </div>
                 </div>
